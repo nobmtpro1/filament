@@ -72,6 +72,7 @@ class SoldTicketResource extends Resource
             'index' => Pages\ListSoldTickets::route('/'),
             'create' => Pages\CreateSoldTicket::route('/create'),
             // 'edit' => Pages\EditSoldTicket::route('/{record}/edit'),
+            'sold' => Pages\SoldTicket::route('/sold'),
         ];
     }
 }
